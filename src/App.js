@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import TreeMap from '../src/component/TreeMap';
+import './App.css'
+import data from './myData.json'; 
+import Navbar from './component/Navbar';
+import{BrowserRouter as Router,Routes,Route} from "react-router-dom"
+import DetailPage from './component/DetailPage';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+<div className="App">
+  
+<Router>
+  <Navbar></Navbar>
+        <h1>State summary</h1>
+      <TreeMap data={data} />
+      
+        <Routes>
+        
+          <Route path="/details" element={<DetailPage/>} />
+        </Routes>
+      
+      
+    
+     
+      
+    </Router>
     </div>
+   
+    
   );
 }
 

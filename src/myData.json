@@ -1,0 +1,16 @@
+{
+    "name": "Root",
+    "children": [
+      { "name": "delhi", "value": 30 ,"temp":"30c" ,"population":"12m"},
+      { "name": "bihar", "value": 20,"temp":"20c" ,"population":"32m" },
+      { "name": "maharastra", "value": 40,"temp":"40c","population":"42m"},
+      { "name": "assam", "value": 35 ,"temp":"35c" ,"population":"52m"},
+      { "name": "punjab", "value": 25,"temp":"25c" ,"population":"82m"},
+      { "name": "goa", "value": 16,"temp":"16c" ,"population":"92m"},
+      { "name": "jharkhand", "value": 23 ,"temp":"32c","population":"112m"},
+      { "name": "west-bengal", "value": 27 ,"temp":"27c" ,"population":"72m"},
+      { "name": "karnataka", "value": 32 ,"temp":"32c" ,"population":"26m"},
+      { "name": "haryana", "value": 28,"temp":"29c","population":"66m"}
+    ]
+  }
+  
